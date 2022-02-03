@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("rolling-hills.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 40px 360px;
+}
+
+.home-link {
+  margin-right: auto;
+  text-decoration: none;
+  color: green;
+  font-size: 16px;
+}
+
+.startup {
+  color: rgb(117, 116, 116);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  padding: 0px 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(117, 116, 116);
+}
+
+.nav-links li a:hover {
+  color: green;
+  font-weight: bolder;
+}
+
+.container {
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: green;
+  padding: 10px;
+  margin-bottom: 0%;
+  font-family: "Sansita Swashed", cursive;
+}
+
+p {
+  text-align: center;
+  margin-top: 0%;
+  font-size: 20px;
+  color: darkgray;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.btn {
+  background-color: white;
+  border: 3px greenyellow solid;
+  font-size: 16px;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 4px 2px;
+  padding: 20px;
+  color: green;
+  font-weight: bold;
+}
+
+.btn a {
+  text-decoration: none;
+  color: green;
+}
+
+footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 30px;
+}
